@@ -8,4 +8,5 @@ public class Usuario {
     private String telefono;
     private String password;
 
+
 }
