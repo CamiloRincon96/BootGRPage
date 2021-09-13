@@ -11,7 +11,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "usuarios")
+@Table(name = "TABLA_MOVIMIENTOS")
 @ToString @EqualsAndHashCode
 public class Usuario {
 
@@ -37,6 +37,7 @@ public class Usuario {
     public void setId(Long id) {
         this.id = id;
     }
+
 
 
 
